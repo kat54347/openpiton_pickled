@@ -34,13 +34,13 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 <%
   import pyhplib
-  from pyhplib import * 
+  from pyhplib import *
 
   pyhplib.MakeGenericCacheDefine(
-    modulename="sram_l1i_data", 
-    type="1rw", 
+    modulename="sram_l1i_data",
+    type="1rw",
     height_define="`IC_SET_COUNT*2",
     heightlog2_define="`IC_SET_IDX_HI+2",
-    width_define="272"
+    width_define="136"
     );
 %>

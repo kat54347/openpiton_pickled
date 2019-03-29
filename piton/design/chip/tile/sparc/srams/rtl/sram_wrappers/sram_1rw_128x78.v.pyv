@@ -32,11 +32,11 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 <%
   import pyhplib
-  from pyhplib import * 
+  from pyhplib import *
 
   pyhplib.MakeGenericCacheDefine(
-    modulename="sram_1rw_128x78", 
-    type="1rw", 
+    modulename="sram_1rw_128x78",
+    type="1rw",
     height_define="128",
     heightlog2_define="7",
     width_define="78"
